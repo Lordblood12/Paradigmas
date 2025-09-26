@@ -77,3 +77,5 @@ o	struct book_t, struct member_t.
 o	Listas enlazadas (a través del puntero *next).
 •	Enumeraciones: enum genre_t para representar géneros de libros.
 •	Punteros: book_t *library, member_t *members, int *issued_books.
+
+// https://github.com/Lordblood12/Paradigmas.git
