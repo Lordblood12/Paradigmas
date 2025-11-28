@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio – Miguel Castillo</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background: #24292e;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        nav {
+            background: #181a1b;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 20px;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.01);
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background: #24292e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+
+        .project-link {
+            font-size: 1.1rem;
+            color: #0366d6;
+            font-weight: bold;
+        }
+
+        .badge {
+            background: #0366d6;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 100px;
+            margin-left: 10px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portafolio de Miguel Castillo</h1>
+        <p>Proyectos – Paradigmas – Prácticas – GitHub</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- SOBRE MÍ -->
+        <div class="card" id="sobre-mi">
+            <h2>👋 Sobre mí</h2>
+            <p>
+                Hola, soy Miguel Castillo.  
+                Programador y estudiante apasionado por los lenguajes, la lógica, la IA y el desarrollo web.
+                Este es mi portafolio dentro del repositorio <strong>Paradigmas</strong>.
+            </p>
+        </div>
+
+        <!-- PROYECTOS -->
+        <div class="card" id="proyectos">
+            <h2>📁 Mis Proyectos</h2>
+            <p>Aquí dejo algunos de mis repositorios más importantes:</p>
+
+            <ul>
+                <li>
+                    <a class="project-link" href="https://github.com/tu-usuario/paradigmas" target="_blank">
+                        Paradigmas de Programación
+                    </a>
+                    <span class="badge">Actual</span>
+                </li>
+                <li>
+                    <a class="project-link" href="https://github.com/tu-usuario/proyecto1" target="_blank">
+                        Proyecto 1 – Nombre del proyecto
+                    </a>
+                </li>
+                <li>
+                    <a class="project-link" href="https://github.com/tu-usuario/proyecto2" target="_blank">
+                        Proyecto 2 – Nombre del proyecto
+                    </a>
+                </li>
+                <li>
+                    <a class="project-link" href="https://github.com/tu-usuario/proyecto3" target="_blank">
+                        Proyecto 3 – Nombre del proyecto
+                    </a>
+                </li>
+            </ul>
+
+            <p>Si quieres, puedo añadir todos tus proyectos automáticamente (solo dime tu usuario de GitHub).</p>
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="card" id="contacto">
+            <h2>📨 Contacto</h2>
+            <p>Puedes contactarme por:</p>
+            <ul>
+                <li>Email: <strong>tu-email@example.com</strong></li>
+                <li>GitHub: <a href="https://github.com/tu-usuario" target="_blank">github.com/tu-usuario</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Miguel Castillo – Portafolio GitHub Pages
+    </footer>
+
+</body>
+</html>
